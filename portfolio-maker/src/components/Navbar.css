@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 38rem 10fr;
+}
+li {
+  list-style: none;
+}
+.menulink ul {
+  margin-top: 0px;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
