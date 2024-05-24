@@ -2,7 +2,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const navbarMenuItems = [
     {
-      title: "Homee",
+      title: "Home",
     },
     {
       title: "Feature",
