@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import portImage from "../images/dp.png";
 const Navbar = () => {
   const navbarMenuItems = [
     {
@@ -21,16 +22,32 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="navbar">
-      <div>i</div>
-      <div className="menulink">
-        <ul className="mainList">
-          {navbarMenuItems.map((item) => (
-            <li>{item.title}</li>
-          ))}
-        </ul>
+    <>
+      <div className="navbarParent">
+        <nav className="navbar">
+          <div className="imageParent">
+            <img
+              className="image"
+              src={portImage}
+              alt="portfolioImage"
+              width="60"
+              height="60"
+            ></img>
+          </div>
+          <div className="menulink">
+            <ul className="mainList">
+              {navbarMenuItems.map((item) => (
+                <li className="itemList">{item.title}</li>
+              ))}
+            </ul>
+          </div>
+
+          {/* <hr></hr> */}
+        </nav>
+        <div className="horizontalLine"></div>
       </div>
-    </nav>
+      <div className="demo"></div>
+    </>
   );
 };
 
