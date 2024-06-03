@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  height: 4.5rem;
+  display: grid;
+  grid-template-columns: 38rem 10fr;
+  background-color: rgb(33, 36, 40);
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+.mainList {
+  margin-top: 20px;
+  height: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.itemList {
+  font-size: 1.15rem;
+  color: rgb(156 163 175);
+}
+.itemList:hover {
+  color: red;
+}
+.image {
+  color: rgb(156 163 175);
+  border-radius: 50%;
+}
+.imageParent {
+  padding: 10px;
+}
+.demo {
+  height: 50rem;
+}
+.horizontalLine {
+  height: 0.3px;
+  width: 100%;
+  background-color: rgb(188, 184, 184);
+}
+.navbarParent {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
