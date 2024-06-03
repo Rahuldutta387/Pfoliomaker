@@ -30,8 +30,8 @@ const Navbar = () => {
               className="image"
               src={portImage}
               alt="portfolioImage"
-              width="60"
-              height="60"
+              width="50"
+              height="50"
             ></img>
           </div>
           <div className="menulink">
