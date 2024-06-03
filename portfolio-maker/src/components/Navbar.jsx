@@ -41,8 +41,6 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-
-          {/* <hr></hr> */}
         </nav>
         <div className="horizontalLine"></div>
       </div>

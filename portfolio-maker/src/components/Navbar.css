@@ -24,17 +24,11 @@ li {
 }
 .image {
   color: rgb(156 163 175);
-  /* margin-top: 20px; */
   border-radius: 50%;
 }
 .imageParent {
   padding: 10px;
 }
-/* hr {
-  border-top: 0 #e5e7eb;
-  height: 0px;
-  width: 200%;
-} */
 .demo {
   height: 50rem;
 }
