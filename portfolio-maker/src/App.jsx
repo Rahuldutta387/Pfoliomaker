@@ -1,10 +1,14 @@
-import Navbar from "./components/Navbar";
 import "./App.css";
+import { Main } from "./components/Main";
+import {  UserProvider } from "./components/UserContext";
+
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-    </div>
+    <UserProvider>
+        <div className="App">
+        <Main/>
+        </div>
+    </UserProvider>
   );
 }
 

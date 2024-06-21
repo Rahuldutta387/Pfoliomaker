@@ -1,0 +1,102 @@
+.home-section {
+    color: rgb(156 163 175);
+    display: flex;
+    height: 50rem;
+    
+}
+.intro-section, .user-image-section {
+    width: 50%;
+}
+
+.intro-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    >div >h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        margin: 0;
+    }
+    >div >h2 {
+        color: rgb(255, 255, 255);
+        margin: 0;
+    }
+    .userName {
+        color:rgb(255 1 79);
+    }
+}
+
+.intro-sub-section {
+    line-height: 4rem;
+}
+.user-image-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.background-box { 
+    width: 40%;
+    height: 35rem;
+    position: absolute;
+    top: 43vh;
+    right: 60px;
+    box-shadow: -5px -5px 20px rgb(56, 56, 57);
+}
+.user-image-section > img {
+    z-index: 10;
+    position: relative;
+}
+.animateRole {
+    opacity: 0;
+    animation: show-up;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: calc(0s * var(--index));
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes show-up {
+    from { opacity: 0;right: 0px; }
+    to { opacity: 1;right: 1px; }
+}
+
+.profile-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconStyle {
+    color: rgb(255,255,255);
+    font-size : 1.5rem
+}
+
+.profileIcon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1e22;
+    margin: 1rem 1rem 0.5rem 0;
+}
+.profileIcon:hover {
+    transition-duration: 1.25s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.icons-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hrLine {
+    border: 0.1px solid  rgb(0, 0, 0);
+}
+  
